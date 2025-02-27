@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <nav class="bg-blue-600 p-4 text-white">
+    <nav class="bg-red-500 p-4 text-white">
         <ul class="flex space-x-4">
             <li><a href="{{ url('/') }}" class="hover:underline">Home</a></li>
             <li><a href="{{ url('/products') }}" class="hover:underline">Products</a></li>
             <li><a href="{{ url('/sales') }}" class="hover:underline">Sales</a></li>
-            <li><a href="{{ url('/user/1/name/JohnDoe') }}" class="hover:underline">User Profile</a></li>
+            <li><a href="{{ url('/user/2341720073/name/Dwi Ahmad Khairy') }}" class="hover:underline">User Profile</a></li>
         </ul>
     </nav>
 
@@ -20,7 +20,7 @@
         @yield('content')
     </div>
 
-    <footer class="bg-gray-800 text-white p-4 text-center mt-6">
+    <footer class="bg-gray-700 text-white p-4 text-center mt-6">
         &copy; 2025 POS DWIK - All Rights Reserved
     </footer>
 </body>
